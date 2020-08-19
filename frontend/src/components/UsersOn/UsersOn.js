@@ -6,7 +6,7 @@ import './UsersOn.css'
 
 export default function UsersOn({ showUsers, names }) {
     return (
-        <ScrollToBottom className={showUsers ? 'showUsersSmall' : 'users'}>
+        <ScrollToBottom className={showUsers ? 'users-on' : 'hide'}>
             {names && names.map(name => {
                 return (
                     <div key={name.id}>

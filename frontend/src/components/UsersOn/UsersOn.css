@@ -1,38 +1,19 @@
-.users {
-    color: #fff;
-    position: absolute;
-    right: 64px;
+.hide {
+    display: none;
 }
 
-.showUsersSmall div span,
-.users div span {
+.users-on div span {
     margin-right: 8px;
 }
 
-.showUsersSmall div,
-.users div {
+.users-on  div {
     margin: 8px 0;
 }
 
-.showUsersSmall {
+.users-on {
     position: absolute;
     background: #fff;
     border-radius: 8px;
     padding: 32px;
     box-shadow: 1px 1px 10px #333;
-}
-
-@media (max-width: 700px) {
-    .users {
-        display: none;
-    }
-}
-
-@media (min-width: 700px) {
-    .showUsersSmall {
-        display: none;
-    }
-    .users {
-        display: block;
-    }
 }

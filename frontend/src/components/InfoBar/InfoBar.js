@@ -12,7 +12,7 @@ export default function InfoBar({ room, handleShowUsers }) {
                 <h3>{ room }</h3>
             </div> 
 
-            <div className="users-on" onClick={() => handleShowUsers()}>
+            <div onClick={() => handleShowUsers()}>
                 <i className="fas fa-users icon"></i>    
             </div>   
 
