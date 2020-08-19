@@ -16,8 +16,7 @@ export default function Chat({ location }) {
     const [room, setRoom] = useState('')
     const [message, setMessage] = useState('')
     const [messages, setMessages] = useState([])
-    // const ENDPOINT = 'https://react-chat-julio.herokuapp.com/'
-    const ENDPOINT = 'http://localhost:8000'
+    const ENDPOINT = 'https://react-chat-julio.herokuapp.com/'
     const [data, setData] = useState([])
     const [showUsers, setShowUsers] = useState(false)
 
